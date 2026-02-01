@@ -1,8 +1,8 @@
-# Nuttfy Board – Arduino Core (Customized NodeMCU BSP)
+# MCU8266 Board – Arduino Core (Customized NodeMCU BSP)
 
 ## Overview
 
-Nuttfy Board is a **fully customized Arduino-compatible development board** built on the **NodeMCU platform**, modified to meet **real-life project requirements at an advanced level**.
+MCU8266 Board is a **fully customized Arduino-compatible development board** built on the **NodeMCU platform**, modified to meet **real-life project requirements at an advanced level**.
 
 The main objectives:
 
@@ -10,11 +10,11 @@ The main objectives:
 * Offer a stable and flexible environment for real projects
 * Remove unnecessary limitations and allow advanced configurations
 
-> ⚠️ Note: This is a **customized and modified board support package** specifically designed for **Nuttfy Board**.
+> ⚠️ Note: This is a **customized and modified board support package** specifically designed for **MCU8266 Board**.
 
 ---
 
-## Why Nuttfy Board?
+## Why MCU8266 Board?
 
 When I started learning microcontroller programming, I realized:
 
@@ -22,7 +22,7 @@ When I started learning microcontroller programming, I realized:
 * Default settings are not always efficient
 * Advanced control requires customization
 
-**Nuttfy Board** was created to:
+**MCU8266 Board** was created to:
 
 * Be beginner-friendly
 * Be powerful for advanced users
@@ -48,7 +48,7 @@ When I started learning microcontroller programming, I realized:
 
 ## Installation Options
 
-Nuttfy Board can be installed and used in multiple ways:
+MCU8266 Board can be installed and used in multiple ways:
 
 ### 1. Using Arduino Boards Manager (Recommended)
 
@@ -60,10 +60,10 @@ Best method for beginners.
 2. Open Arduino IDE
 3. Go to `File > Preferences`
 4. Add the following URL to **Additional Boards Manager URLs**:
-   `https://raw.githubusercontent.com/techmcu/nuttyfi/refs/heads/main/package/package_nuttyfi_index.json`
+   `https://raw.githubusercontent.com/techmcu/mcu8266/refs/heads/main/package/package_mcu8266_index.json`
 5. Open `Tools > Board > Boards Manager`
-6. Install **Nuttfy Board Platform**
-7. Select **Nuttfy Board** from the board list
+6. Install **MCU8266 Board Platform**
+7. Select **MCU8266 Board** from the board list
 
 ---
 
@@ -128,7 +128,7 @@ Support and discussions are available for learning and troubleshooting.
 
 ## Contributing
 
-If you want to improve Nuttfy Board:
+If you want to improve MCU8266 Board:
 
 * Minor fixes → Direct pull request
 * Major changes → Discuss before PR
@@ -145,13 +145,13 @@ Guidelines:
 
 * Based on Arduino ecosystem open-source tools
 * Toolchains and libraries under respective open-source licenses
-* Custom modifications maintained under **Nuttfy Board Project**
+* Custom modifications maintained under **MCU8266 Board Project**
 
 ---
 
 ## Final Note
 
-Nuttfy Board is not just a development board —
+MCU8266 Board is not just a development board —
 It is a **complete solution from learning to production**.
 
 > This board is created keeping my needs, experience, and real-world problems in mind, so beginners like me can avoid struggles in the future. 🚀
